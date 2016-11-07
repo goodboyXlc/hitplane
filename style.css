@@ -1,0 +1,114 @@
+/*css初始化*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*contentdiv*/
+#contentdiv {
+  position: absolute;
+  left: 500px;
+
+  width: 320px;
+  height: 568px;
+
+  background: green;
+}
+
+/*startdiv*/
+#startdiv {
+  position: absolute;
+
+  width: 320px;
+  height: 568px;
+
+  background-image: url(image/开始背景.png);
+}
+/*button*/
+#startdiv button {
+  position: absolute;
+  top:500px;
+  left: 85px;
+
+  width: 150px;
+  height: 30px;
+
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: gray;
+}
+
+/*maindiv*/
+#maindiv {
+  position: absolute;
+
+  width: 320px;
+  height: 568px;
+
+  background-image: url(image/background_1.png);
+
+  display: none;
+
+  overflow: hidden;
+}
+
+/*scorediv*/
+#scorediv {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*enddiv*/
+#enddiv {
+  position: absolute;;
+  top: 210px;
+  left: 75px;
+
+  border: 1px solid gray;
+  text-align: center;
+
+  background-color: green;
+
+  display: none;
+
+  border-radius: 5px;
+
+  z-index: 10;
+}
+
+#plantext {
+  width: 160px;
+  height: 80px;
+
+  line-height: 80px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#planscore {
+  width: 160px;
+  height: 80px;
+
+  line-height: 80px;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+#enddiv div button {
+  margin-top: 10px;
+  width: 90px;
+  height: 30px;
+
+  border-radius: 20px;
+
+  border: 1px solid cyan;
+}
+
+
